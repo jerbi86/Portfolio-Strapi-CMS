@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "footer"
+  },
+  "options": {},
+  "attributes": {
+    "designedDevelopedBy": {
+      "type": "string"
+    },
+    "builtWith": {
+      "type": "string"
+    },
+    "externalLinks": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

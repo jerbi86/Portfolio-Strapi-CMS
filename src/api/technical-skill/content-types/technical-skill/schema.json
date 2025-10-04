@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technical_skills",
+  "info": {
+    "singularName": "technical-skill",
+    "pluralName": "technical-skills",
+    "displayName": "TechnicalSkills"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "groupName": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "customField",
+      "customField": "plugin::strapi-plugin-iconhub.iconhub",
+      "options": {
+        "storeIconData": true,
+        "storeIconName": true
+      }
+    },
+    "tools": {
+      "type": "component",
+      "component": "technical-skills.tools",
+      "repeatable": true
+    }
+  }
+}

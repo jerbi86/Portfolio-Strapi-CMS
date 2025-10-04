@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_technical_skills_tools",
+  "info": {
+    "displayName": "tools"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "customField",
+      "customField": "plugin::strapi-plugin-iconhub.iconhub",
+      "options": {
+        "storeIconData": true,
+        "storeIconName": true
+      }
+    }
+  },
+  "config": {}
+}
