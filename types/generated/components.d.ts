@@ -26,6 +26,10 @@ export interface GlobalPersonnelInformation extends Struct.ComponentSchema {
     lastName: Schema.Attribute.String;
     linkedin: Schema.Attribute.String;
     logo: Schema.Attribute.Media<'images'>;
+    longDescription: Schema.Attribute.Text;
+    Quote: Schema.Attribute.String;
+    resume: Schema.Attribute.Media<'files'>;
+    shortDescription: Schema.Attribute.Text;
   };
 }
 
